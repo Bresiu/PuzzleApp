@@ -1,4 +1,4 @@
-package com.bresiu.puzzle.model.entity.job;
+package com.bresiu.puzzle.model.entity;
 
 import com.google.gson.annotations.SerializedName;
 

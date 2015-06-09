@@ -1,4 +1,4 @@
-package com.bresiu.puzzle.model.rest;
+package com.bresiu.puzzle.network;
 
 import com.google.gson.Gson;
 import com.google.gson.TypeAdapter;

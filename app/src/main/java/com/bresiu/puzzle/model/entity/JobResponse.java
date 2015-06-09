@@ -1,4 +1,4 @@
-package com.bresiu.puzzle.model.entity.job;
+package com.bresiu.puzzle.model.entity;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -29,10 +29,9 @@ public class JobResponse {
 
 	@Override
 	public String toString() {
-		return "JobResponse{" +
-				"totalJobs=" + totalJobs +
-				", jobData=" + jobData +
-				", pages=" + pages +
-				'}';
+		return "JobResponse= " +
+				"TotalJobs= " + this.totalJobs +
+				"JobData= " + this.jobData +
+				"Pages= " + this.pages;
 	}
 }

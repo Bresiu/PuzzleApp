@@ -1,6 +1,6 @@
-package com.bresiu.puzzle.model.rest.job;
+package com.bresiu.puzzle.network;
 
-import com.bresiu.puzzle.model.entity.job.JobResponse;
+import com.bresiu.puzzle.model.entity.JobResponse;
 
 import java.util.Map;
 
