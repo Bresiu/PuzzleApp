@@ -6,8 +6,6 @@ import com.google.gson.GsonBuilder;
 
 import java.util.Map;
 
-import javax.inject.Inject;
-
 import retrofit.RestAdapter;
 import retrofit.converter.GsonConverter;
 import rx.Observable;
@@ -18,7 +16,6 @@ import rx.Observable;
 public class RestRepository {
 	private final JobsApi jobsApi;
 
-	@Inject
 	public RestRepository() {
 		Gson gson = new GsonBuilder()
 				.registerTypeAdapterFactory(new JobAdapterFactory())

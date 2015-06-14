@@ -31,7 +31,8 @@ public class JobResponse {
 	public String toString() {
 		return "JobResponse= " +
 				"TotalJobs= " + this.totalJobs +
-				"JobData= " + this.jobData +
+				"JobData size= " + this.jobData.size() +
+				//"JobData= " + this.jobData.toString() +
 				"Pages= " + this.pages;
 	}
 }

@@ -1,4 +1,5 @@
 <resources>
 	<string name="app_name">Puzzle</string>
 	<string name="action_settings">action</string>
+	<string name="search_button">search</string>
 </resources>
